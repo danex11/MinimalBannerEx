@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
-        //AdMob 3 : request and load an ad
+        //AdMob 3 : request and load an ad into the view
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
         mAdView.loadAd(adRequest);
